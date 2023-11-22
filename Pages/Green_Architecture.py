@@ -23,11 +23,11 @@ Tree tower - Archi-nature co-existing, Tokyo, Japan byArchitect Moshe Katz.
 """
 
 # Image paths
-image_path1 =Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\eden-green-vertical-farm-facility.jpg")
-image_path2 = Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\pasona.jpg")
-image_path3 = Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\blossom.jpg")
-bc=Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\bioclamatic_skin.jpg")
-fs=Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\forest_skyscraper.jpg")
+image_path1 =Image.open(r"Images/eden-green-vertical-farm-facility.jpg")
+image_path2 = Image.open(r"Images/pasona.jpg")
+image_path3 = Image.open(r"Images/blossom.jpg")
+bc=Image.open(r"Images/bioclamatic_skin.jpg")
+fs=Image.open(r"Images/forest_skyscraper.jpg")
 # Create columns for the layout
 col1, col2 = st.columns(2)  # Adjust the ratio as needed
 
