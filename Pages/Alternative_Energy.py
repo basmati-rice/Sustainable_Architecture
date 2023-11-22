@@ -2,7 +2,7 @@ import streamlit as st
 import pyvista as pv
 from stpyvista import stpyvista
 from PIL import Image
-
+pv.OFF_SCREEN = True
 plotter_panel = pv.Plotter(window_size=[400, 400])
 mesh_panel = pv.read('Models/new_solar.stl') 
 mesh_panel.plot()
