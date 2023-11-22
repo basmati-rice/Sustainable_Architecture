@@ -4,7 +4,7 @@ from stpyvista import stpyvista
 from PIL import Image
 
 plotter_panel = pv.Plotter(window_size=[400, 400])
-mesh_panel = pv.read(r"C:\Users\HP\Desktop\Sus-Website\models\new_solar.stl") 
+mesh_panel = pv.read(r"Models\new_solar.stl") 
 mesh_panel.plot()
 plotter_panel.add_mesh(mesh_panel, show_edges=True, color=True, line_width=1)
 plotter_panel.camera_position= 'xy'
@@ -18,8 +18,8 @@ st.write('''Solar energy is increasing in popularity not only implementation, bu
 Excess electricity produced by solar panels on buildings can be redirected to the main energy grid.
 A car park roof with solar panels provides shelter for vehicles while generating electricity from sunlight, promoting sustainability.''')
 
-rot_panel=Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\rotpan.jpg")
-solaris=Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\solaris.jpg")
+rot_panel=Image.open(r"Images\rotpan.jpg")
+solaris=Image.open(r"Images\solaris.jpg")
 
 col1,col2=st.columns(2)
 col1.header('Solaris Float:')
@@ -28,7 +28,7 @@ col2.header('Rotating Solar Panels:')
 col2.image(rot_panel)
 
 st.header("Algae Energy System:")
-algae=Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\algae.jpg") #PUT IMG HERE   
+algae=Image.open(r"Images\algae.jpg")
 col1a,col2a=st.columns(2)
 texta="""- Utilizes photosynthesis to convert the sun's energy into fuel.
 - Algae rapidly grows within glass panels.
