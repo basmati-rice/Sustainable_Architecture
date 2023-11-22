@@ -14,7 +14,7 @@ st.set_page_config(
 st.sidebar.success("Select a page from above")
 
 #MAIN PAGE
-header_img=Image.open(r"Images/EVS group project.png") 
+header_img=Image.open('Images/EVS group project.png') 
 st.image(header_img)
 st.header("Why sustainable architecture?",divider='rainbow')
 st.header("The building sector:")
@@ -26,7 +26,7 @@ More emphasis must be placed on the goal of sustainable architecture.
 The International Energy Agency (IEA) tracks the progress of various sectors with regard to sustainability goals.
 The building sector is graded as follows:''')
 
-co2_graph=Image.open(r"Images/co2_emmissions.png") 
+co2_graph=Image.open("Images/co2_emmissions.png") 
 st.image(co2_graph)
 
 col1,col2,col3=st.columns(3)
@@ -46,7 +46,7 @@ colc.header('Appliances and Equipment:')
 colc.write("This area is where replacement and adaptation are likely to be a far bigger issue than innovation and adoption in new builds. The IEA grades this area as ‘more work needed’.")
 st.write("Overall, The IEA has the buildings sector set at ‘not on track’. This clearly implies that policymakers around the world have to act urgently in terms of regulations on new and existing stock, to even remotely meet the net neutral, mid-century targets. Banks should consider this a major short- and mid-term risk to collateral value and their balance sheets’ credit profiles.")
 
-heat_map=Image.open(r"Images/urban_heat_island.png") 
+heat_map=Image.open("Images/urban_heat_island.png") 
            
            
 st.header("Urban heat island:")
@@ -55,8 +55,8 @@ Heat waves are a major hazard, with a higher mortality rate than any other extre
 According to NITI Aayog's India Energy Security Scenario of 2017, 65% of building energy consumption is linked to the needs of space cooling and heating.""")
 st.image(heat_map)
 
-st.video(r"Images/sus_bldg.mp4")
-bldg=Image.open(r"Images/sus_bild.jpeg")
+st.video("Images/sus_bldg.mp4")
+bldg=Image.open("Images/sus_bild.jpeg")
 sus_bldg="""
 ### <span> A sustainable building can have: </span>
 - Good insulation  
