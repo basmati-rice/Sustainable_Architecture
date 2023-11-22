@@ -46,12 +46,12 @@ content = """
 """
 
 # Image path
-myc = Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\mycelium.jpg")
-pw = Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\plastic_bottles.jpg")
-cork= Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\cork.jpg")
-of= Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\fabric.jpg")
-cct= Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\carbon_capture.png")
-ec= Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\concrete.jpg")
+myc = Image.open(r"Images/mycelium.jpg")
+pw = Image.open(r"Images/plastic_bottles.jpg")
+cork= Image.open(r"Images/cork.jpg")
+of= Image.open(r"Images/fabric.jpg")
+cct= Image.open(r"Images/carbon_capture.png")
+ec= Image.open(r"Images/concrete.jpg")
 # Create columns for the layout
 col1, col2 = st.columns(2)  # Adjust the ratio as needed
 
