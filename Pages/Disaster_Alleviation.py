@@ -4,13 +4,13 @@ from stpyvista import stpyvista
 from PIL import Image
 
 plotter_panel = pv.Plotter(window_size=[400, 400])
-mesh_panel = pv.read(r"C:\Users\HP\Desktop\Sus-Website\models\earthwake.stl")  
+mesh_panel = pv.read(r"Models/earthwake.stl")  
 mesh_panel.plot()
 plotter_panel.add_mesh(mesh_panel, show_edges=True, color=True, line_width=1)
 plotter_panel.camera_position= 'xy'
 plotter_panel.background_color = "white"
 
-base=Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\base.png")
+base=Image.open(r"Images/base.png")
 st.header("Disaster Alleviation:", divider='rainbow')
 st.header("Seismic Systems:")
 stpyvista( plotter_panel,panel_kwargs=dict(orientation_widget=True, interactive_orientation_widget=True))
@@ -30,7 +30,7 @@ text1='''These buildings are integrated with:
 
 st.markdown(text1, unsafe_allow_html=True)
 st.header("Flood Systems:")
-amph=Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\amphi_house.jpg")  
+amph=Image.open(r"Images/amphi_house.jpg")  
 st.write("""Amphibious Housing:
 \nThese structures have currently been optimized for building upto 3 storeys and have been qualified for flood 3 zones. Designed to float on the water's surface during floods, amphibious houses ensuring the safety of residents and minimizing damage to property. Equipped with buoyant foundations or floating platforms, these houses rise with the water level, reducing the risk of inundation and structural damage. Their adaptability to rising water levels makes them an effective and resilient approach in flood-prone regions, offering a sustainable and practical response to the increasing challenges posed by climate change and rising sea levels.""")
 st.image(amph)
