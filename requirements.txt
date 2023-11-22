@@ -1,3 +1,4 @@
-pyvista
+streamlit==0.89.0
+pyvista==0.32.0
 stpyvista
 Pillow
