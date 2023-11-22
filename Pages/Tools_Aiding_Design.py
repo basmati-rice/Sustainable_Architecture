@@ -9,11 +9,11 @@ text1="""### <span> **Green Building Studio, Energy Plus, and IES Energy Modelin
 - Helps in determining the best materials to use and the ideal building orientation for maximum energy efficiency.  
 - Allow you to predict a building's performance throughout the year before it's even constructed. """
 
-tools=Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\companies.png")
+tools=Image.open(r"Images/companies.png")
 st.markdown(text1, unsafe_allow_html=True)
 st.image(tools)
 
-graviky=Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\gravikylabs.jpg")
+graviky=Image.open(r"Images/gravikylabs.jpg")
 
 text2="""### <span> **Graviky Labs:** </span>
 - Invents an ingenious tailpipe filter. 
@@ -31,7 +31,7 @@ text3="""### <span> **Blueren, Singapore:**  </span>
 st.markdown(text3,unsafe_allow_html=True)
 
 
-rec_eye=Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\recycleeye.png")
+rec_eye=Image.open(r"Images/recycleeye.png")
 text4="""### <span> **Recycle eye:**  </span>
 - AI-driven system aimed at enhancing the value of recycling.  
 - Utilizes AI for plastic waste sorting.  
