@@ -6,6 +6,7 @@ import streamlit as st
 import pyvista as pv
 from stpyvista import stpyvista
 from PIL import Image
+pv.OFF_SCREEN = True
 st.set_page_config(
     page_title="Sustainable architecture",
     page_icon="👋",
