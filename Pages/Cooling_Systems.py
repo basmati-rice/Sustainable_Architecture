@@ -26,10 +26,10 @@ Employs nanotechnology by utilizing minor electrical signals to charge the windo
 """
 
 # Image paths
-image_path1 = Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\cooling1.png")
-image_path2 = Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\cooling2.png")
-image_path3 = Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\cooling3.png")
-image_path4 = Image.open(r"C:\Users\HP\Desktop\Sus-Website\images\cooling4.png")
+image_path1 = Image.open(r"Images/cooling1.png")
+image_path2 = Image.open(r"Images/cooling2.png")
+image_path3 = Image.open(r"Images/cooling3.png")
+image_path4 = Image.open(r"Images/cooling4.png")
 # Markdown content
 st.markdown(content, unsafe_allow_html=True)
 
