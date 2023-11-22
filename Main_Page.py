@@ -6,6 +6,9 @@ import streamlit as st
 import pyvista as pv
 from stpyvista import stpyvista
 from PIL import Image
+from pyvirtualdisplay import Display
+display = Display(visible=0, size=(1, 1))
+display.start()
 pv.OFF_SCREEN = True
 st.set_page_config(
     page_title="Sustainable architecture",
@@ -68,5 +71,6 @@ sus_bldg="""
 - Proper ventilation"""
 st.image(bldg)
 st.markdown(sus_bldg, unsafe_allow_html=True)
+display.stop()
 
 
