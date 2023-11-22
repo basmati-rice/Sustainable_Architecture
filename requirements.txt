@@ -1,4 +1,4 @@
-streamlit==0.89.0
-pyvista==0.32.0
+pyvista
 stpyvista
 Pillow
+pyvirtualdisplay
